@@ -1,0 +1,41 @@
+* {
+    border: solid 1px salmon ;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+}
+header { 
+    height: 100px;
+    background-color: aqua;
+    color: maroon;
+    position: relative;
+}
+#site-nav {
+    position:absolute;
+    max-width: 400px;
+    right: 0;
+    top: 40px;
+}
+
+#site-nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#site-nav ul li {
+    display:inline;
+
+}
+
+main { 
+    min-height: 80vh;
+}
+
+footer{
+    height: 100px;
+    background-color: grey;
+    color: maroon;
+}
