@@ -8,9 +8,13 @@ body {
 }
 header { 
     height: 100px;
-    background-color: aqua;
-    color: maroon;
+    background-color: #2a607c;
+    color: white;
     position: relative;
+}
+#site-header {
+
+    font-size: 40px;
 }
 #site-nav {
     position:absolute;
@@ -27,15 +31,30 @@ margin: 0;
 
 #site-nav ul li {
     display:inline;
-
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+padding-top: 15px;
+margin-right: 20px;
+float: right;
 }
 
 main { 
     min-height: 80vh;
+   
 }
+p{font-size: 16px;}
+/*#aside-content { 
+        width: 25%;
+        padding-right: 15px;
+        margin-right: 15px;
+        float: left;
+        font-style: italic;
+        background-color: lightgray;
+}*/
 
-footer{
+footer {
     height: 100px;
     background-color: grey;
     color: maroon;
+   
 }
