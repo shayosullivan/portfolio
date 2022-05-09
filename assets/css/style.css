@@ -42,16 +42,28 @@ main {
     min-height: 80vh;
    
 }
-p{font-size: 16px;}
+.about-me > p,
+.about-me > h2{
+    display: inline;
+}
+
+p {font-size: 16px;
+}
 
 img{
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
-    width: 400px;
-    height: 300px;
+    margin-left: 40%;
+    padding: 40px;
+    width: 300px;
+    height: 200px;
+    display: block;
+
 }
 
+img:hover{
+    box-shadow: 0 0 20px cornflowerblue;
+}
 
 /*#aside-content { 
         width: 25%;
