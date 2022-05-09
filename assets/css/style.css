@@ -43,6 +43,16 @@ main {
    
 }
 p{font-size: 16px;}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+    height: 300px;
+}
+
+
 /*#aside-content { 
         width: 25%;
         padding-right: 15px;
@@ -57,4 +67,15 @@ footer {
     background-color: grey;
     color: maroon;
    
+}
+
+@media screen and (max-width: 992px) {
+    #site-nav{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #site-nav{
+        width: 100%;
+    }
 }
