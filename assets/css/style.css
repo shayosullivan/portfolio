@@ -99,17 +99,17 @@ footer {
     position: relative;
     left: 0;
     bottom: 0px;
-}
-#footer .info {
     display: flex;
     justify-content: space-between;
-    align-items: center;}
-
+    align-items: center;
+    
+}
 
 .footer-info ul {
     padding: 0;
-    margin: 0;
+    margin: 30px;
     list-style: none;
+    text-align: right;
   }
   .footer-info ul li {
     float: right;
@@ -118,4 +118,5 @@ footer {
   }
   .footer-info ul li a {
     color: black;
+
   }
